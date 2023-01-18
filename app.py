@@ -14,7 +14,7 @@ RPC = Presence(client_id)
 
 RPC.connect()
 
-RPC.update(state="Making my own premid", large_image="large_image") # Updates our presence
+RPC.update(details="Making my discord rich presence", large_image="large_image", start=int(time.time()), small_image="idkrandomting", state="Still working on it!")
 
 print("Presence online")
 
