@@ -14,7 +14,7 @@ RPC = Presence(client_id)
 
 RPC.connect()
 
-RPC.update(state="Making my own premid") # Updates our presence
+RPC.update(state="Making my own premid", large_image="large_image") # Updates our presence
 
 print("Presence online")
 
